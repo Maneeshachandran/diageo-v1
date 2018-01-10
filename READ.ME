@@ -1,0 +1,43 @@
+<----------  This is the basic MERN Boilerplate  ---------->
+
+** All required configuration and basic npm packages are installed already **
+
+Steps to Start with Boilerplate :
+  - open command prompt / terminal from the Boilerplate root directory
+  - run $->npm i  (It will install all the packages from package.json which is required for development)
+  - if npm package has old version, then use $-> npm update
+  - You are there!
+  - Start Building your APP
+
+
+Note :
+  - package installation should be made in the root of the project folder
+  - only one packagejson should be maintained for the app (which acts as core when dockerize)
+  - no jQuery should be used in development (jQuery interacts with browser DOM but React interacts with Virtual DOM)
+
+installed Packages :
+  - React
+  - Express
+  - Mongoose (Driver for MongoDB)
+  - Babel for React JSX
+  - webpack
+  - semantic ui react (UI Framework)
+  ** Look package.json for your reference **
+
+Overview of Boilerplate FHS :
+  - client
+      - assets     (holds image files)
+      - components
+      - styles     (holds css files)
+      - views
+  - server
+      - db
+          - connections (instantiating db connections Eg.: Mongo, Redis, Neo4J)
+          - models      (holds db schema files)
+      - routes
+      - server.js
+  - index.html
+  - main.js
+  - package.json
+  - READ.ME
+  - webpack.config.js

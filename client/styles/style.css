@@ -1,0 +1,65 @@
+.menu{
+      background-color: #000 !important;
+}
+
+.ui.grid {
+	margin-top: ;
+}
+
+.ui.dropdown .menu .selected.item,
+.ui.dropdown.selected,
+.ui.dropdown .menu>.item{
+	 background-color: #FFF !important;
+}
+
+.product{
+   color: black
+}
+
+.ui.checkbox label,
+.ui.checkbox+label,
+.ui.checkbox label:hover,
+.ui.checkbox+label:hover,.ui.checkbox label:hover,
+.ui.checkbox+label:hover,.dropdown{
+  color: black;
+  font-size: 16px;
+  font-family: open sans-serif
+}
+
+.ui.grid>.column:not(.row) {
+	margin-left: 1%;
+}
+
+.ui.segment{
+	padding: 1.25em;
+}
+
+.table{
+	margin-right: 1.5%;
+}
+
+.segment{
+  margin-right: 5%;
+  margin-left: 5%;
+}
+.formstyle{
+  border-radius: 5px;
+}
+h4{
+	text-align: center;
+  color: white;
+  font-size: 20px;
+  font-family: open sans-serif;
+}
+h3,h2{
+  font-size: 22px;
+  font-family: open sans-serif
+}
+.tableheadcell{
+font-size: 18px;
+font-family: open sans-serif
+}
+.tablecell{
+  font-size: 17px;
+  font-family: open sans-serif
+}

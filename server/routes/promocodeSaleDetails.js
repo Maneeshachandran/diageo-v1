@@ -1,0 +1,27 @@
+exports.promoCode=[
+  {
+    year:2017,
+    category:'Whisky',
+    WhiskyName:'Bell\'s',
+    WhiskyPromocode:[{
+      promo:'#BELL\'S001',
+      sales:[
+        {
+          Tesco:'€175,310',
+          Amazon:'€100,300',
+          Sainsbury:'€100,000'
+        }
+      ]
+    },{
+      promo:'#BELL\'SWHISKY14',
+      sales:[
+        {
+          Tesco:'€155,200',
+          Amazon:'€125,013',
+          Sainsbury:'€100,300'
+        }
+      ]
+    }
+  ]
+}
+]
